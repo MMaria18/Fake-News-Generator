@@ -7,15 +7,32 @@
 </head>
 <body>
 
-    <div class="container">
-        <h1>📰 Fake News Generator</h1>
+<div class="news-container">
 
-        <div class="card">
-            <p class="headline">BREAKING NEWS: {{ headline }}</p>
-        </div>
-
-        <a href="/" class="btn">Generate Another</a>
+    <!-- Header -->
+    <div class="news-header">
+        <span class="icon">⚠️</span>
+        <h2>BREAKING NEWS</h2>
+        <span class="live">LIVE</span>
     </div>
+
+    <!-- Headline Card -->
+    <div class="headline-card">
+        <h1>{{ headline }}</h1>
+        <p class="subtext">✨ Completely fabricated • Just now</p>
+    </div>
+
+    <!-- Generate Button -->
+    <a href="/" class="generate-btn">
+        🔄 Generate New Headline
+    </a>
+
+    <!-- Disclaimer -->
+    <div class="disclaimer">
+        ⚠️ These headlines are completely fake and generated for entertainment purposes only!
+    </div>
+
+</div>
 
 </body>
 </html>
